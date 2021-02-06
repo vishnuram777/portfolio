@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>component library</h1>
+    <p><strong>Vishnu Ram </strong>is attending neog.camp and is currently completing levelZero one weekend and
+        assignment at a time.</p>
+    <p>This is a component library created by her to better design each element.</p>
+    <p>After creating this library she is going to use the components in her <strong>portfolio, blog and all
+            projects</strong> created. This will ensure that all her projects have <strong>consistent themeing and
+            styling</strong></p>
+</body>
+<hr>
+
+<h2>@typographty</h2>
+<h1>The biggest heading h1</h1>
+<h2>The second biggest heading h2</h2>
+
+<p>This is normal text. Long running text would look like this on your website. This will auto fold based on the width
+</p>
+
+<small>This is relatively smaller text</small>
+<hr>
+
+<div>
+    <h2>@containsers</h2>
+    <h3>@fluid container</h3>
+    <p class="containers">This is going to be a fluid container. It will go full width of page. With some margin.</p>
+    <h3>@center container</h3>
+    <p class="containers containers-center">This is going to be a center container. It will go till a given width and center content.</p>
+    <hr>
+</div>
+
+    <a class="links links-primary" href="/">primary Link</a>
+    <a class="links links-secondary" href="/">secondary Link</a>
+    <hr>
+
+<div class="lists">
+    <h2>@lists</h2>
+    <h3 class="lists-unordered">unordered lists</h3>
+    <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
+    <ul class="lists-non-bullet">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ul>
+    <h3 class="lists-inline">inline lists</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
+    <ul class="lists-ul">
+        <li class="lists-non-bullet list-item">item one</li>
+        <li class="lists-non-bullet list-item">item two</li>
+        <li class="lists-non-bullet list-item">item three</li>
+    </ul>
+    <h3 class="lists-reversed">reverse ordered lists</h3>
+    <p>Counting of will go reverse for this list</p>
+    <ol reversed>
+        <li>something</li>
+        <li>something else</li>
+        <li>something elser</li>
+    </ol>
+    <hr>
+</div>
+
+<nav>
+    <h2>@nav</h2>
+    <p>Navigation is used on the top of the page and used to get to different pages</p>
+    <nav class="navigation containers">
+        <div class="nav-brand">theBrandName</div>
+            <ul class="lists-non-bullet nav-pills">
+                <li class="lists-item-inline lists-non-bullet">
+                    <a class="links link-active" href="/">home</a>
+                </li>
+                <li class="lists-item-inline lists-non-bullet">
+                    <a class="links" href="/">products</a>
+                </li>
+                <li class="lists-item-inline lists-non-bullet">
+                    <a class="links" href="/">about</a>
+                </li>
+            </ul>
+    </nav>
+</nav>
+<hr>
+
+<h2> @header </h2>
+
+<header class="hero">
+    <img class="hero-image" src="/images/hero.svg" alt="">
+    <h1 class="hero-heading">vishnu the <span class="hero-heading-inverted">web developer</span> </h1>
+</header>
+<hr>
+
+<h2>@section</h2>
+<section class="section">
+    <div class="containers containers-center">
+       <h1>@white section</h1>
+        <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections
+            of features, team, pricing, contact info etc.</p>
+            <a href="/" class="links links-secondary"> Primary Button </a>
+    </div>
+
+</section>
+
+<section class="section ow">
+   <div class="containers containers-center">
+    <h1>@inside off white section</h1>
+    <p>Text defining this section and many more things</p>
+    <a href="/" class="links links-primary"> Primary Button </a>
+   </div>
+</section>
+<hr>
+
+<h2> @footer </h2>
+<footer class="footer containers">
+        <div class="footer-header">header inside footer</div>
+        <ul class="social-links lists-item-inline">
+            <li class="lists-item-inline">
+                <a class="links" href="/">
+                socialone
+                </a>
+            </li>
+            <li class="lists-item-inline">
+                <a class="links" href="/">
+                socialtwo
+                </a>
+            </li>
+            <li class="links lists-item-inline">
+                <a class="links" href="/">
+                socialthree
+                </a>
+            </li>
+        </ul>
+</footer>
+
+
+</body>
+
+</html>
